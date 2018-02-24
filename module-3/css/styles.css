@@ -1,0 +1,63 @@
+.wrapper {
+	max-width: 1400px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+
+ul {
+	margin-left: 280px;
+}
+
+ul li {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: 80px;
+	display: inline-block;
+	color: gray;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.menu {
+	margin-left: 200px;
+}
+
+.content {
+	display: inline-block;
+	margin-left: 55px;
+	margin-top: 50px;
+	width: 400px;
+	color: gray;
+}
+
+img {
+	width: 400px;
+	height: 300px;
+	margin-bottom: 20px;
+}
+
+span {
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover {
+	color: pink;
+}
+
+.footer {
+	height: 70px;
+	padding-top: 30px;
+	padding-left: 31%;
+	margin-left: 200px;
+}
+
+
+.button {
+	border: 1px solid gray;
+	padding: 10px;
+}
