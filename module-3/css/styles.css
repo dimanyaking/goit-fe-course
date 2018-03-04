@@ -1,31 +1,31 @@
 .wrapper {
-	max-width: 1400px;
-	min-width: 1000px;
+	max-width: 900px;
+	min-width: 900px;
 	margin: 0 auto;
 }
 
+* {
+	font-family: Playfair display;
+}
+
 ul {
-	margin-left: 280px;
+	margin-left: 200px;
 }
 
 ul li {
-	margin-top: 50px;
-	margin-bottom: 20px;
-	margin-left: 80px;
+	padding-top: 50px;
+	margin: 0 50px 50px 0;
 	display: inline-block;
 	color: gray;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
-.menu {
-	margin-left: 200px;
-}
 
 .content {
 	display: inline-block;
-	margin-left: 55px;
-	margin-top: 50px;
+	margin-left: 40px;
+	padding-bottom: 20px;	
 	width: 400px;
 	color: gray;
 }
@@ -49,15 +49,15 @@ a:hover {
 	color: pink;
 }
 
-.footer {
-	height: 70px;
-	padding-top: 30px;
-	padding-left: 31%;
-	margin-left: 200px;
+.button{
+	width: 150px;
+	height: 50px;
+	padding 0px;
+	outline: none;
+	border: 1px solid black;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+	background: #fff;
 }
 
-
-.button {
-	border: 1px solid gray;
-	padding: 10px;
-}
